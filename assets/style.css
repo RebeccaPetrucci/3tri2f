@@ -56,6 +56,7 @@ footer p{
     font-size: 1vw;
     backface-visibility: hidden;
 }
+
 .cartao-conteudo-pergunta{
     color: var(--cor-do-texto);
     font-weight: 500;
