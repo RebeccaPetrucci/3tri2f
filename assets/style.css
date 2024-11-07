@@ -34,13 +34,14 @@ footer p{
     margin: 2rem;
     height: 20rem;
     background-color: #6EACDA;
+    border-radius: 10px;
 }
 .cartao:hover .cartao-conteudo{
     transform: rotateY(180deg);
 }
 .cartao-conteudo{
     text-align: center;
-    height: 100%;
+    height: 80%;
     padding: 20px;
     transform-style: preserve-3d;
     transition: transform 500ms ease-in-out;
@@ -69,4 +70,7 @@ backface-visibility: hidden;
 }
 .cartao-conteudo-resposta{
 transform: rotateY(180deg);
+}
+.cartao-conteudo-pergunta{
+    padding-top: 70px;
 }
